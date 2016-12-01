@@ -70,7 +70,7 @@
   </action>
   <action id="EditorEscape">
     <keyboard-shortcut first-keystroke="escape" />
-    <keyboard-shortcut first-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl equals" />
@@ -129,6 +129,9 @@
   <action id="EditorScrollDown">
     <keyboard-shortcut first-keystroke="meta down" />
     <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="l" />
   </action>
   <action id="EditorScrollUp">
     <keyboard-shortcut first-keystroke="meta up" />
@@ -191,6 +194,7 @@
     <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad5" />
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="5" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo" />
   <action id="FileChooser.NewFolder" />
   <action id="FindNext">
