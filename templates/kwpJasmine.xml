@@ -10,7 +10,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="it" value="it(&quot;$description$&quot;,&#10;    function () {&#10;        $END$&#10;    }&#10;);" description="Jasmine it" toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it(&quot;$description$&quot;, function () {&#10;    $END$&#10;});" description="Jasmine it" toReformat="false" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
