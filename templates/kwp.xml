@@ -7,9 +7,6 @@
   <template name="region" value="//region $END$Description&#10;//endregion" description="Insert a region comment" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="false" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
