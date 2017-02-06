@@ -1,8 +1,7 @@
 <templateSet group="kwpJavaScript">
   <template name="3lc" value="//&#10;// $END$&#10;//" description="Three line comment" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="clog" value="console.log(&quot;$END$&quot;);" description="console.log()" toReformat="false" toShortenFQNames="true">
