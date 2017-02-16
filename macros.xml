@@ -102,5 +102,8 @@
       <typing text-keycode="67:0;79:0;68:0;69:0">code</typing>
       <shortuct text="ENTER" />
     </macro>
+    <macro name="kwp-git-blame">
+      <action id="Annotate" />
+    </macro>
   </component>
 </application>
