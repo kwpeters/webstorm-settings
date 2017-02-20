@@ -42,6 +42,11 @@
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
+  <codeStyleSettings language="Gherkin">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="SPECIAL_ELSE_IF_TREATMENT" value="false" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
