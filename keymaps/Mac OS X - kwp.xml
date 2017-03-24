@@ -294,7 +294,7 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="3" />
   </action>
   <action id="StartStopMacroRecording">
-    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="shift 9" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="shift left_parenthesis" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f7" />
