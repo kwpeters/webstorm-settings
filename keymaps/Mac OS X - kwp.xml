@@ -250,6 +250,9 @@
   <action id="Macro.return to bookmark">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="r" />
   </action>
+  <action id="ManageRecentProjects">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="down" />
   </action>
