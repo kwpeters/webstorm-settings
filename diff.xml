@@ -16,9 +16,6 @@
           </option>
         </PlaceSettings>
       </entry>
-      <entry key="CommitDialog">
-        <PlaceSettings />
-      </entry>
       <entry key="Default">
         <PlaceSettings>
           <option name="DIFF_TOOLS_ORDER">
@@ -39,14 +36,12 @@
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
       <entry key="ChangesView">
-        <PlaceSettings>
-          <option name="IGNORE_POLICY" value="IGNORE_WHITESPACES" />
-        </PlaceSettings>
+        <PlaceSettings />
       </entry>
       <entry key="CommitDialog">
         <PlaceSettings>
-          <option name="SHOW_INDENT_LINES" value="true" />
           <option name="READ_ONLY_LOCK" value="false" />
+          <option name="SHOW_INDENT_LINES" value="true" />
         </PlaceSettings>
       </entry>
       <entry key="Default">
