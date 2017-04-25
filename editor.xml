@@ -9,4 +9,10 @@
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
     <option name="KEEP_TRAILING_SPACE_ON_CARET_LINE" value="false" />
   </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="important" case-sensitive="true" pattern="LEFT OFF HERE" />
+    <pattern icon="important" case-sensitive="true" pattern="TODO" />
+  </component>
 </application>
