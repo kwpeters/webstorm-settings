@@ -164,4 +164,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="todo" value="// TODO: $END$" description="Insert a todo comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="here" value="////////////////////////////////////////////////////////////////////////////////&#10;// LEFT OFF HERE: $END$&#10;////////////////////////////////////////////////////////////////////////////////" description="Insert a &quot;Left Off Here&quot; comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
