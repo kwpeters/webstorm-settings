@@ -1,6 +1,5 @@
 <application>
   <component name="WrapSettingsProvider">
     <option name="columnWidthOverride" value="80" />
-    <option name="useMinimumRaggednessAlgorithm" value="true" />
   </component>
 </application>
