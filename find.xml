@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="src-client" />
-    <option name="defaultScopeName" value="src-client" />
+    <option name="customScope" value="client-no-specs" />
+    <option name="defaultScopeName" value="client-no-specs" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="src-client" />
+    <option name="SEARCH_SCOPE" value="client-no-specs" />
     <recentFileMasks>
       <mask>!*.sp</mask>
       <mask>!*</mask>
