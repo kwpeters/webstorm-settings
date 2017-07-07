@@ -4,4 +4,9 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="mdtable" value="| col1 | col2 | col3 |&#10;| ---- | ---- | ---- |&#10;| v1   |  v2  | v3   |" description="Markdown table" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
