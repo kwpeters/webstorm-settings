@@ -331,6 +331,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="ToggleBookmark" />
+  <action id="ToggleInlineHintsAction">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="h" />
+  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="meta f8" />
     <keyboard-shortcut first-keystroke="f9" />
