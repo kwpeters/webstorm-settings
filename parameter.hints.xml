@@ -1,7 +1,46 @@
 <application>
   <component name="ParameterNameHintsSettings">
     <blacklists>
-      <blacklist language="TypeScript" />
+      <blacklist language="TypeScript">
+        <removed pattern="*.debug(*)" />
+        <removed pattern="*.error(*)" />
+        <removed pattern="*.endsWith(*, *)" />
+        <removed pattern="*.contains(*)" />
+        <removed pattern="*.log(*, *)" />
+        <removed pattern="*.charCodeAt(*)" />
+        <removed pattern="*.map(*)" />
+        <removed pattern="*.charAt(*)" />
+        <removed pattern="*.endsWith(*)" />
+        <removed pattern="(from*, to*)" />
+        <removed pattern="(message)" />
+        <removed pattern="*.log(*)" />
+        <removed pattern="*.add(*)" />
+        <removed pattern="*.error(*, *)" />
+        <removed pattern="(begin*, end*)" />
+        <removed pattern="*.join(*)" />
+        <removed pattern="*.reduce(*, *)" />
+        <removed pattern="*.debug(*, *)" />
+        <removed pattern="*.set(*,*)" />
+        <removed pattern="(format, arg*)" />
+        <removed pattern="*.concat(*)" />
+        <removed pattern="(message, error)" />
+        <removed pattern="*.get(*)" />
+        <removed pattern="*.forEach(*)" />
+        <removed pattern="*.push(*)" />
+        <removed pattern="*.set*(*)" />
+        <removed pattern="*.startsWith(*)" />
+        <removed pattern="(start*, end*)" />
+        <removed pattern="(key, value)" />
+        <removed pattern="*.lastIndexOf(*, *)" />
+        <removed pattern="*.create(*)" />
+        <removed pattern="(first*, last*)" />
+        <removed pattern="*.filter(*)" />
+        <removed pattern="(first*, second*)" />
+        <removed pattern="*.indexOf(*, *)" />
+        <removed pattern="*.append(*)" />
+        <removed pattern="*.startsWith(*, *)" />
+        <removed pattern="(min*, max*)" />
+      </blacklist>
     </blacklists>
     <option id="js.show.names.for.all.args" value="true" />
   </component>
