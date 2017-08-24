@@ -36,7 +36,9 @@
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
       <entry key="ChangesView">
-        <PlaceSettings />
+        <PlaceSettings>
+          <option name="SHOW_WHITESPACES" value="true" />
+        </PlaceSettings>
       </entry>
       <entry key="CommitDialog">
         <PlaceSettings>
