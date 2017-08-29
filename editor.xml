@@ -20,5 +20,18 @@
     <pattern pattern="\bfixme\b.*" />
     <pattern icon="important" case-sensitive="true" pattern="LEFT OFF HERE" />
     <pattern icon="important" case-sensitive="true" pattern="TODO" />
+    <pattern icon="important" useCustomColors="true" pattern="\bmust\b.*">
+      <option name="FOREGROUND" value="73bf" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="EFFECT_COLOR" value="ffffff" />
+      <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+    </pattern>
+    <pattern pattern="\bfuture\b.*" />
+    <filter name="before checkin">
+      <pattern index="4" />
+      <pattern index="2" />
+      <pattern index="3" />
+      <pattern index="0" />
+    </filter>
   </component>
 </application>
