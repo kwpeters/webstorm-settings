@@ -199,7 +199,9 @@
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="5" />
   </action>
   <action id="ExportToTextFile" />
-  <action id="ExpressionTypeInfo" />
+  <action id="ExpressionTypeInfo">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="t" />
+  </action>
   <action id="FileChooser.NewFolder" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="f3" />
@@ -241,9 +243,6 @@
   </action>
   <action id="Macro.drop bookmark">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="b" />
-  </action>
-  <action id="Macro.finishThen">
-    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="t" />
   </action>
   <action id="Macro.kwp-word-wap-remove-selection">
     <keyboard-shortcut first-keystroke="alt q" />
