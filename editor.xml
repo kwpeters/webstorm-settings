@@ -20,13 +20,13 @@
     <pattern pattern="\bfixme\b.*" />
     <pattern icon="important" case-sensitive="true" pattern="LEFT OFF HERE" />
     <pattern icon="important" case-sensitive="true" pattern="TODO" />
-    <pattern icon="important" useCustomColors="true" pattern="\bmust\b.*">
+    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\bMUST\b.*">
       <option name="FOREGROUND" value="fffbee" />
       <option name="BACKGROUND" value="bf0f1e" />
       <option name="EFFECT_COLOR" value="bf0f1e" />
       <option name="ERROR_STRIPE_COLOR" value="bf0f1e" />
     </pattern>
-    <pattern pattern="\bfuture\b.*" />
+    <pattern case-sensitive="true" pattern="\bFUTURE\b.*" />
     <filter name="before checkin">
       <pattern index="4" />
       <pattern index="2" />
