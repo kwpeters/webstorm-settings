@@ -23,16 +23,15 @@
     <pattern icon="important" useCustomColors="true" pattern="\bmust\b.*">
       <option name="FOREGROUND" value="fffbee" />
       <option name="BACKGROUND" value="bf0f1e" />
-      <option name="FONT_TYPE" value="3" />
       <option name="EFFECT_COLOR" value="bf0f1e" />
       <option name="ERROR_STRIPE_COLOR" value="bf0f1e" />
     </pattern>
     <pattern pattern="\bfuture\b.*" />
     <filter name="before checkin">
-      <pattern index="3" />
-      <pattern index="0" />
       <pattern index="4" />
       <pattern index="2" />
+      <pattern index="3" />
+      <pattern index="0" />
     </filter>
   </component>
 </application>
