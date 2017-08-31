@@ -21,10 +21,9 @@
     <pattern icon="important" case-sensitive="true" pattern="LEFT OFF HERE" />
     <pattern icon="important" case-sensitive="true" pattern="TODO" />
     <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\bMUST\b.*">
-      <option name="FOREGROUND" value="fffbee" />
-      <option name="BACKGROUND" value="bf0f1e" />
-      <option name="EFFECT_COLOR" value="bf0f1e" />
-      <option name="ERROR_STRIPE_COLOR" value="bf0f1e" />
+      <option name="FOREGROUND" value="0" />
+      <option name="BACKGROUND" value="fab964" />
+      <option name="ERROR_STRIPE_COLOR" value="fab964" />
     </pattern>
     <pattern case-sensitive="true" pattern="\bFUTURE\b.*" />
     <filter name="before checkin">
