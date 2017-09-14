@@ -22,4 +22,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="arrow" value="($params$): $retType$ =&gt; {$END$}" description="arrow function in TypeScript" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="retType" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

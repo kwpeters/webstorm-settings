@@ -99,7 +99,6 @@
     <variable name="params" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="cdump" value="console.log(&quot;\n\n----- $varName$ -----&quot;);&#10;console.log(JSON.stringify($varName$, undefined, 4) + &quot;\n\n&quot;);$END$" description="console.log a variable" toReformat="false" toShortenFQNames="true">
