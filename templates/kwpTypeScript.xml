@@ -5,8 +5,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="es6promise" value="new Promise&lt;$resolveType$&gt;((resolve: (result: $resolveType$) =&gt; void, reject: (err: any) =&gt; void) =&gt; {&#10;    $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="es6promise" value="new Promise&lt;$resolveType$&gt;((resolve: (result: $resolveType$) =&gt; void, reject: (err: $errorType$) =&gt; void) =&gt; {&#10;    $END$&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="resolveType" expression="" defaultValue="&quot;ResolveType&quot;" alwaysStopAt="true" />
+    <variable name="errorType" expression="" defaultValue="&quot;Error&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
@@ -24,6 +25,12 @@
   </template>
   <template name="arrow" value="($params$) =&gt; {$END$}" description="arrow function in TypeScript" toReformat="false" toShortenFQNames="true">
     <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="iface" value="interface I$name$ {&#10;    $END$&#10;}" description="interface" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;DarkBrownObject&quot;" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
