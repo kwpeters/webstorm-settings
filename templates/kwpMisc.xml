@@ -1,0 +1,12 @@
+<templateSet group="kwpMisc">
+  <template name="vlan" value="VLAN" description="VLAN" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="enet" value="Ethernet" description="Ethernet" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
