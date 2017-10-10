@@ -1,0 +1,16 @@
+<templateSet group="kwpMocha">
+  <template name="mochad" value="describe(&quot;$title$&quot;, () =&gt; {&#10;    $END$    &#10;});" description="Mocha describe" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="mochai" value="it(&quot;$title$&quot;, () =&gt; {&#10;    $END$assert.equal(0, 1);&#10;});" description="Mocha it" toReformat="false" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="&quot;title&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
