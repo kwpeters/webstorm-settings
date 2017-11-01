@@ -344,6 +344,11 @@
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
+  <action id="com.andrewbrookins.idea.wrap.WrapAction">
+    <keyboard-shortcut first-keystroke="shift ctrl meta w" />
+    <keyboard-shortcut first-keystroke="shift meta alt w" />
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="p" />
+  </action>
   <action id="intellij.frontendalignement.AlignItAction">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="a" />
   </action>
