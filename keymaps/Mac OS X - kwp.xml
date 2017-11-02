@@ -247,6 +247,9 @@
   <action id="Macro.kwp-word-wap-remove-selection">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
+  <action id="Macro.kwp-wrap-current-line">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
   <action id="Macro.kwpDeleteWhitespace">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="w" />
   </action>

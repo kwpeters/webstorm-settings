@@ -206,5 +206,11 @@
       <action id="EditorEnter" />
       <action id="EditorDown" />
     </macro>
+    <macro name="kwp-wrap-current-line">
+      <action id="EditorJoinLines" />
+      <action id="Macro.kwp-word-wap-remove-selection" />
+      <action id="com.andrewbrookins.idea.wrap.WrapAction" />
+      <action id="EditorLineEnd" />
+    </macro>
   </component>
 </application>
