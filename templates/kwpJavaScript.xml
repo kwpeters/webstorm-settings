@@ -53,7 +53,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="jsdfunc" value="/**&#10; * $END$&#10; * @param {Type} paramName - ParameterDescription&#10; * @return {Type} ReturnDescription&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
+  <template name="jsdfunc" value="/**&#10; * $END$&#10; * @param {Type} param - ParameterDescription&#10; * @return {Type} ReturnDescription&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
