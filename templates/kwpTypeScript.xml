@@ -35,4 +35,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="itts" value="it(&quot;$description$&quot;, ($done$) =&gt; {$END$&#10;});" description="Jasmine it()" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <variable name="done" expression="" defaultValue="&quot;done&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
