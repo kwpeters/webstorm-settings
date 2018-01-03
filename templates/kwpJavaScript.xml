@@ -97,7 +97,6 @@
   </template>
   <template name="arrow" value="($params$) =&gt; {$END$}" description="insert an arrow function" toReformat="false" toShortenFQNames="true">
     <variable name="params" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="cdump" value="console.log(&quot;\n\n----- $varName$ -----&quot;);&#10;console.log(JSON.stringify($varName$, undefined, 4) + &quot;\n\n&quot;);$END$" description="console.log a variable" toReformat="false" toShortenFQNames="true">
     <variable name="varName" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
