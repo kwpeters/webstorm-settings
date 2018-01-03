@@ -47,4 +47,21 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="method" value="$access$ $static$$methodname$($params$): $returntype$&#10;{$END$&#10;}" description="Add a new method" toReformat="false" toShortenFQNames="true">
+    <variable name="access" expression="" defaultValue="&quot;public&quot;" alwaysStopAt="true" />
+    <variable name="static" expression="" defaultValue="&quot;static &quot;" alwaysStopAt="true" />
+    <variable name="methodname" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="returntype" expression="" defaultValue="&quot;Promise&lt;boolean&gt;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="member" value="private _$name$: $type$;$END$" description="Add a class data member" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
