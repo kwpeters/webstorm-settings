@@ -64,4 +64,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="describets" value="describe(&quot;$description$&quot;, () =&gt; {$END$});" description="Jasmine describe" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
