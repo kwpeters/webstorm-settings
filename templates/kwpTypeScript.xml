@@ -26,6 +26,7 @@
   <template name="arrow" value="($params$) =&gt; {$END$}" description="arrow function in TypeScript" toReformat="false" toShortenFQNames="true">
     <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
