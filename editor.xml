@@ -22,15 +22,14 @@
     <pattern icon="important" case-sensitive="true" pattern="LEFT OFF HERE" />
     <pattern icon="important" case-sensitive="true" pattern="TODO" />
     <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\bMUST\b.*">
-      <option name="FOREGROUND" value="0" />
-      <option name="BACKGROUND" value="fab964" />
-      <option name="ERROR_STRIPE_COLOR" value="fab964" />
+      <option name="FOREGROUND" value="f5f4f5" />
+      <option name="BACKGROUND" value="730000" />
     </pattern>
     <pattern case-sensitive="true" pattern="\bFUTURE\b.*" />
     <filter name="before checkin">
-      <pattern index="3" />
-      <pattern index="2" />
       <pattern index="4" />
+      <pattern index="2" />
+      <pattern index="3" />
       <pattern index="0" />
     </filter>
   </component>
