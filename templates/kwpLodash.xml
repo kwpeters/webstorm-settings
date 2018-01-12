@@ -1,0 +1,9 @@
+<templateSet group="kwpLodash">
+  <template name="ldchain" value="_.chain($collection$)$END$&#10;.value();" description="A Lodash chain()/value()" toReformat="false" toShortenFQNames="true">
+    <variable name="collection" expression="" defaultValue="&quot;collection)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
