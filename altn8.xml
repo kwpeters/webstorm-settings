@@ -20,28 +20,96 @@
           <option name="replaceExpression" value="$1Test.java" />
         </AlternateFreeRegexItem>
         <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)(\.tpl)?.html$" />
+          <option name="replaceExpression" value="$1.js" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)(\.tpl)?.html$" />
+          <option name="replaceExpression" value="$1.spec.js" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)(\.tpl)?.html$" />
+          <option name="replaceExpression" value="$1.ts" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)(\.tpl)?.html$" />
+          <option name="replaceExpression" value="$1.spec.ts" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)(\.tpl)?.html$" />
+          <option name="replaceExpression" value="$1.less" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.spec\.js$" />
+          <option name="replaceExpression" value="$1.html" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.spec\.js$" />
+          <option name="replaceExpression" value="$1.tpl.html" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.spec\.js$" />
+          <option name="replaceExpression" value="$1.less" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.spec\.js$" />
+          <option name="replaceExpression" value="$1.css" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.spec\.js$" />
+          <option name="replaceExpression" value="$1.ts" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
           <option name="matchExpression" value="^(.*?)\.spec\.js$" />
           <option name="replaceExpression" value="$1.js" />
         </AlternateFreeRegexItem>
         <AlternateFreeRegexItem>
-          <option name="matchExpression" value="^(.*?)\.js" />
-          <option name="replaceExpression" value="$1.spec.js" />
+          <option name="matchExpression" value="^(.*?)\.js$" />
+          <option name="replaceExpression" value="$1.html" />
         </AlternateFreeRegexItem>
         <AlternateFreeRegexItem>
-          <option name="matchExpression" value="^(.*?)\.spec\.ts$" />
+          <option name="matchExpression" value="^(.*?)\.js$" />
+          <option name="replaceExpression" value="$1.tpl.html" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.js$" />
+          <option name="replaceExpression" value="$1.less" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.js$" />
+          <option name="replaceExpression" value="$1.css" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.js$" />
           <option name="replaceExpression" value="$1.ts" />
         </AlternateFreeRegexItem>
         <AlternateFreeRegexItem>
-          <option name="matchExpression" value="^(.*?)\.ts" />
+          <option name="matchExpression" value="^(.*?)\.js$" />
+          <option name="replaceExpression" value="$1.spec.js" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.ts$" />
+          <option name="replaceExpression" value="$1.html" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.ts$" />
+          <option name="replaceExpression" value="$1.tpl.html" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.ts$" />
+          <option name="replaceExpression" value="$1.less" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.ts$" />
+          <option name="replaceExpression" value="$1.css" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.ts$" />
           <option name="replaceExpression" value="$1.spec.ts" />
         </AlternateFreeRegexItem>
         <AlternateFreeRegexItem>
-          <option name="matchExpression" value="^(.*?).ts$" />
-          <option name="replaceExpression" value="$1.spec.js" />
-        </AlternateFreeRegexItem>
-        <AlternateFreeRegexItem>
-          <option name="matchExpression" value="^(.*?)\.spec\.js$" />
-          <option name="replaceExpression" value="$1.ts" />
+          <option name="matchExpression" value="^(.*?)\.ts$" />
+          <option name="replaceExpression" value="$1.js" />
         </AlternateFreeRegexItem>
       </list>
     </option>
