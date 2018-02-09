@@ -7,7 +7,7 @@
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.spec.ts" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*!spe</mask>
       <mask>*!sp</mask>
@@ -37,8 +37,8 @@
       <mask>*.</mask>
       <mask>*.t</mask>
       <mask>*.spec.js</mask>
-      <mask>*.ts</mask>
       <mask>*.spec.ts</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
