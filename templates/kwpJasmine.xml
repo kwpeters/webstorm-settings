@@ -1,5 +1,5 @@
 <templateSet group="kwpJasmine">
-  <template name="describe" value="describe(&quot;$description$&quot;, function () {$END$&#10;});" description="Jasmine describe" toReformat="false" toShortenFQNames="true">
+  <template name="describe" value="describe(&quot;$description$&quot;, function () {$END$&#10;});" description="Jasmine describe" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -10,7 +10,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="it" value="it(&quot;$description$&quot;, function () {$END$&#10;});" description="Jasmine it" toReformat="false" toShortenFQNames="true">
+  <template name="it" value="it(&quot;$description$&quot;, function () {$END$&#10;});" description="Jasmine it" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
