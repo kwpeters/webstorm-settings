@@ -212,5 +212,15 @@
       <action id="com.andrewbrookins.idea.wrap.WrapAction" />
       <action id="EditorLineEnd" />
     </macro>
+    <macro name="kwp-exp">
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <typing text-keycode="69:0;88:0;80:0;69:0;67:0;84:0">expect</typing>
+      <action id="EditorEscape" />
+      <action id="EditorLineEnd" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+    </macro>
   </component>
 </application>
