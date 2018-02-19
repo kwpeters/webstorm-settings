@@ -73,4 +73,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="for" value="for (let $curIndex$ = 0; $curIndex$ &lt; $container$.length; ++$curIndex$) {&#10;}" description="TS for loop" toReformat="false" toShortenFQNames="true">
+    <variable name="curIndex" expression="" defaultValue="&quot;curIndex&quot;" alwaysStopAt="true" />
+    <variable name="container" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
