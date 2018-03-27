@@ -198,6 +198,11 @@
     <keyboard-shortcut first-keystroke="meta alt multiply" second-keystroke="numpad5" />
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="5" />
   </action>
+  <action id="ExpandRegionRecursively">
+    <keyboard-shortcut first-keystroke="meta alt add" />
+    <keyboard-shortcut first-keystroke="meta alt equals" />
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="shift add" />
+  </action>
   <action id="ExportToTextFile" />
   <action id="ExpressionTypeInfo">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="t" />
