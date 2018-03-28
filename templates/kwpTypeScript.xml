@@ -13,12 +13,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="curl" value="&#10;{$END$&#10;}" description="insert curly braces" toReformat="false" toShortenFQNames="true">
+  <template name="curl" value="{$END$&#10;}" description="insert curly braces" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="if" value="if ($END$)&#10;{&#10;}" description="if conditional" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if ($END$) {&#10;}" description="if conditional" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
@@ -44,7 +44,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="try" value="try&#10;{$END$&#10;}&#10;catch (err)&#10;{&#10;}" description="try/catch" toReformat="false" toShortenFQNames="true">
+  <template name="try" value="try {$END$&#10;}&#10;catch (err) {&#10;}" description="try/catch" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
