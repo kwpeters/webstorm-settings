@@ -3,41 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="regularExpressions" value="true" />
-    <option name="showResultsInSeparateView" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <recentFileMasks>
-      <mask>*!spe</mask>
-      <mask>*!sp</mask>
-      <mask>*!s</mask>
-      <mask>*!</mask>
-      <mask>feat</mask>
-      <mask>tre</mask>
-      <mask>tr</mask>
-      <mask>t</mask>
-      <mask>f</mask>
-      <mask>fe</mask>
-      <mask>fea</mask>
-      <mask>featu</mask>
-      <mask>featur</mask>
-      <mask>feature</mask>
-      <mask>*feature</mask>
-      <mask>*.featu</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
-      <mask>*.f</mask>
-      <mask>*.fe</mask>
-      <mask>*.fea</mask>
-      <mask>*.feat</mask>
-      <mask>*.featur</mask>
-      <mask>*.feature</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.t</mask>
-      <mask>*.spec.js</mask>
-      <mask>*.spec.ts</mask>
-      <mask>*.ts</mask>
-    </recentFileMasks>
   </component>
 </application>
