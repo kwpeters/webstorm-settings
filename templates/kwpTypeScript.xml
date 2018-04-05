@@ -80,4 +80,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="fts" value="function $name$($params$): $retType$&#10;{$END$&#10;}$term$" description="TypeScript function" toReformat="false" toShortenFQNames="true">
+    <variable name="term" expression="" defaultValue="&quot;;&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;funcName&quot;" alwaysStopAt="true" />
+    <variable name="retType" expression="" defaultValue="&quot;retType&quot;" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="&quot;param1, param2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
