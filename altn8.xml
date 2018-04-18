@@ -135,6 +135,30 @@
           <option name="matchExpression" value="^(.*?)\.spec.ts$" />
           <option name="replaceExpression" value="$1.js" />
         </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.less$" />
+          <option name="replaceExpression" value="$1.html" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.less$" />
+          <option name="replaceExpression" value="$1.tpl.html" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.less$" />
+          <option name="replaceExpression" value="$1.spec.ts" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.less$" />
+          <option name="replaceExpression" value="$1.css" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.less$" />
+          <option name="replaceExpression" value="$1.ts" />
+        </AlternateFreeRegexItem>
+        <AlternateFreeRegexItem>
+          <option name="matchExpression" value="^(.*?)\.less$" />
+          <option name="replaceExpression" value="$1.js" />
+        </AlternateFreeRegexItem>
       </list>
     </option>
     <option name="genericRegexActive" value="false" />
