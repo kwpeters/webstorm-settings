@@ -20,5 +20,6 @@
     <mask>*.mxml</mask>
     <mask>*.ts</mask>
     <mask>*.feature</mask>
+    <mask>*index*html</mask>
   </component>
 </application>
