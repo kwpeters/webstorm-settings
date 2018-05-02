@@ -24,7 +24,6 @@
     <option name="INDENT_CHAINED_CALLS" value="false" />
   </JSCodeStyleSettings>
   <JSON>
-    <option name="PROPERTY_ALIGNMENT" value="1" />
     <option name="OBJECT_WRAPPING" value="0" />
     <option name="ARRAY_WRAPPING" value="0" />
   </JSON>
@@ -53,6 +52,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
+    <option name="SOFT_MARGINS" value="80,120" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="0" />
       <option name="TAB_SIZE" value="2" />
