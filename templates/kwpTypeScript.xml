@@ -89,4 +89,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="cdump" value="console.log(`\n\n$varName$: ${JSON.stringify($varName$, undefined, 4)}\n\n`);$END$&#10;" description="console.log a variable's value" toReformat="false" toShortenFQNames="true">
+    <variable name="varName" expression="" defaultValue="&quot;variable&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
