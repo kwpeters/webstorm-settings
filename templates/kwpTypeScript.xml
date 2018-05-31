@@ -36,7 +36,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="it" value="$x$it(&quot;$description$&quot;, ($done$) =&gt; {$END$&#10;});" description="Jasmine it()" toReformat="false" toShortenFQNames="true">
+  <template name="ita" value="$x$it(&quot;$description$&quot;, ($done$) =&gt; {$END$&#10;});" description="Jasmine it() (arrow)" toReformat="false" toShortenFQNames="true">
     <variable name="x" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <variable name="done" expression="" defaultValue="&quot;done&quot;" alwaysStopAt="true" />
@@ -66,7 +66,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="desc" value="$x$describe(&quot;$description$&quot;, () =&gt; {$END$});" description="Jasmine describe" toReformat="false" toShortenFQNames="true">
+  <template name="desca" value="$x$describe(&quot;$description$&quot;, () =&gt; {$END$});" description="Jasmine describe() (arrow)" toReformat="false" toShortenFQNames="true">
     <variable name="x" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
