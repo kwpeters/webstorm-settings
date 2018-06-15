@@ -4,7 +4,7 @@
       <option name="CUCUMBER_FEATURE_FILE" value="true" />
     </context>
   </template>
-  <template name="region" value="//region $END$Description&#10;//endregion" description="Insert a region comment" toReformat="true" toShortenFQNames="true">
+  <template name="region" value="// region $END$Description&#10;// endregion" description="Insert a region comment" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
