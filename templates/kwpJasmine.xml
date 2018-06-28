@@ -1,5 +1,5 @@
 <templateSet group="kwpJasmine">
-  <template name="describe" value="describe(&quot;$description$&quot;, function () {$END$&#10;});" description="Jasmine describe" toReformat="false" toShortenFQNames="true" deactivated="true">
+  <template name="describe" value="describe(&quot;$description$&quot;, function () {$END$&#10;});" description="Jasmine describe" toReformat="false" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
