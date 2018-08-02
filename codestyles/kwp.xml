@@ -31,7 +31,6 @@
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
-    <option name="JSDOC_INCLUDE_TYPES" value="false" />
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="ALIGN_OBJECT_PROPERTIES" value="1" />
     <option name="ALIGN_VAR_STATEMENTS" value="2" />
@@ -53,6 +52,11 @@
   <codeStyleSettings language="Gherkin">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HTML">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
