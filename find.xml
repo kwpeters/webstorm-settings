@@ -23,10 +23,10 @@
     <mask>*</mask>
     <mask>*.html</mask>
     <mask>less</mask>
-    <mask>*.less</mask>
     <mask>*.feature</mask>
     <mask>*.step.js</mask>
     <mask>*.js</mask>
     <mask>*.ts</mask>
+    <mask>*.less</mask>
   </component>
 </application>
