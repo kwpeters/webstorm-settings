@@ -5,7 +5,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="expect" value="expect($END$);" description="Jasmine expect" toReformat="true" toShortenFQNames="true">
+  <template name="exp" value="expect($END$);" description="Jasmine expect" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>

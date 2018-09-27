@@ -66,7 +66,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="desca" value="$x$describe(&quot;$description$&quot;, () =&gt; {$END$});" description="Jasmine describe() (arrow)" toReformat="false" toShortenFQNames="true">
+  <template name="desca" value="$x$describe(&quot;$description$&quot;, () =&gt; {$END$&#10;});" description="Jasmine describe() (arrow)" toReformat="false" toShortenFQNames="true">
     <variable name="x" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <context>
