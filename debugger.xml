@@ -5,10 +5,12 @@
       <option name="valueLookupDelay" value="400" />
       <show-values-inline>false</show-values-inline>
     </data-views>
-    <general />
+    <general>
+      <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
+    </general>
     <debuggers>
       <debugger id="javascript">
-        <configuration captureAsyncStackTraces="false" doNotStepIntoLibraryCode="false">
+        <configuration doNotStepIntoLibraryCode="false">
           <custom-object-presentation />
           <stepping-filters-enabled>false</stepping-filters-enabled>
         </configuration>
