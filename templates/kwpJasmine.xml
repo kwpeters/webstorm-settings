@@ -5,7 +5,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="exp" value="expect($END$);" description="Jasmine expect" toReformat="true" toShortenFQNames="true">
+  <template name="exp" value="expect($expr$).$matcher$($END$);" description="Jasmine expect" toReformat="true" toShortenFQNames="true">
+    <variable name="expr" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <variable name="matcher" expression="" defaultValue="&quot;toEqual&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
     </context>
