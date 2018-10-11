@@ -53,7 +53,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="jsdfunc" value="/**&#10; * $END$&#10; * @param {$paramType$} param - description&#10; * @return {$retType$} description&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
+  <template name="jsdfunct" value="/**&#10; * $END$&#10; * @param {$paramType$} param - description&#10; * @return {$retType$} description&#10; */" description="JSDoc for a function - with types" toReformat="false" toShortenFQNames="true">
     <variable name="paramType" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
     <variable name="retType" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
     <context>
@@ -198,6 +198,11 @@
   </template>
   <template name="eslintdisable" value="// eslint-disable-line $ruleName$" description="eslint disable" toReformat="false" toShortenFQNames="true">
     <variable name="ruleName" expression="" defaultValue="&quot;no-negated-condition&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jsdfunc" value="/**&#10; * $END$&#10; * @param param - description&#10; * @return description&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
