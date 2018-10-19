@@ -96,7 +96,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="tslintdisable" value="// tslint:disable-line:$rule$$END$" description="Disable tslint rule for current line" toReformat="false" toShortenFQNames="true">
+  <template name="tslintdisablethisline" value="// tslint:disable-line:$rule$$END$" description="Disable tslint rule for current line" toReformat="false" toShortenFQNames="true">
+    <variable name="rule" expression="" defaultValue="&quot;rule1 rule2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tslintdisablenextline" value="// tslint:disable-next-line:$rule$$END$" description="Disable tslint rule for the next line" toReformat="false" toShortenFQNames="true">
     <variable name="rule" expression="" defaultValue="&quot;rule1 rule2&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
