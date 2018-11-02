@@ -198,5 +198,10 @@
       <action id="EditorLeft" />
       <action id="EditorLeft" />
     </macro>
+    <macro name="kwpSplitAndGoToTop">
+      <action id="SplitHorizontally" />
+      <action id="NextSplitter" />
+      <action id="EditorTextStart" />
+    </macro>
   </component>
 </application>

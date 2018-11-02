@@ -260,6 +260,9 @@
   <action id="Macro.kwpDeleteWhitespace">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="w" />
   </action>
+  <action id="Macro.kwpSplitAndGoToTop">
+    <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="i" />
+  </action>
   <action id="Macro.return to bookmark">
     <keyboard-shortcut first-keystroke="ctrl comma" second-keystroke="r" />
   </action>
