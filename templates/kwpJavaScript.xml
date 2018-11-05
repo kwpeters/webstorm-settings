@@ -100,13 +100,6 @@
   <template name="arrow" value="($params$) =&gt; {$END$}" description="insert an arrow function" toReformat="false" toShortenFQNames="true">
     <variable name="params" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
   </template>
-  <template name="cdump" value="console.log(&quot;\n\n----- $varName$ -----&quot;);&#10;console.log(JSON.stringify($varName$, undefined, 4) + &quot;\n\n&quot;);$END$" description="console.log a variable" toReformat="false" toShortenFQNames="true">
-    <variable name="varName" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
   <template name="cdir" value="console.dir($varName$);$END$" description="console.dir() a variable" toReformat="false" toShortenFQNames="true">
     <variable name="varName" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
     <context>
@@ -145,13 +138,6 @@
     <variable name="method" expression="" defaultValue="&quot;GET&quot;" alwaysStopAt="true" />
     <variable name="route" expression="" defaultValue="&quot;/api/v2/store&quot;" alwaysStopAt="true" />
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="cdumpcon" value="console.log(&quot;----- $varName$ -----&quot;);&#10;console.log(JSON.stringify($varName$, undefined, 4));$END$" description="console.log a variable (appropriate for console output)" toReformat="false" toShortenFQNames="true">
-    <variable name="varName" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
@@ -205,6 +191,12 @@
   <template name="jsdfunc" value="/**&#10; * $END$&#10; * @param param - description&#10; * @return description&#10; */" description="JSDoc for a function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dump" value="console.log(&quot;$varName$ =&quot;, JSON.stringify($varName$, undefined, 4));$END$" description="dump a variable to console" toReformat="false" toShortenFQNames="true">
+    <variable name="varName" expression="" defaultValue="&quot;varName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
