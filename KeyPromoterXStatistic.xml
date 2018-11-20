@@ -10,5 +10,15 @@
         </Item>
       </Statistic>
     </option>
+    <option name="suppressed">
+      <Statistic Action="Save All">
+        <Item>
+          <IdeaActionID>SaveAll</IdeaActionID>
+          <ShortCut>'⌘S'</ShortCut>
+          <Description>Save All</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+    </option>
   </component>
 </application>
