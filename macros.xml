@@ -203,5 +203,14 @@
       <action id="NextSplitter" />
       <action id="EditorTextStart" />
     </macro>
+    <macro name="kwp-wrap-line">
+      <action id="EditorLineEnd" />
+      <action id="EditorJoinLines" />
+      <action id="Macro.kwp-word-wap-remove-selection" />
+      <action id="com.andrewbrookins.idea.wrap.WrapAction" />
+      <action id="EditorLineEnd" />
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+    </macro>
   </component>
 </application>
