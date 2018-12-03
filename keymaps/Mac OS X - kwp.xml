@@ -51,6 +51,10 @@
     <keyboard-shortcut first-keystroke="ctrl semicolon" second-keystroke="f" />
   </action>
   <action id="CopyElement" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift f9" />
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
