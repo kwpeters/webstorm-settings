@@ -9,6 +9,8 @@
     <option name="isCompactTables" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="monochromeIcons" value="true" />
+    <option name="customSidebarHeight" value="20" />
+    <option name="settingsSelectedTab" value="3" />
     <option name="tabsHeight" value="36" />
     <option name="accentColor" value="ff9800" />
     <option name="selectedTheme" value="DARKER" />
