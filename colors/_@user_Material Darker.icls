@@ -4,7 +4,7 @@
     <property name="created">2018-12-07T14:03:27</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.1.0.0</property>
-    <property name="modified">2018-12-08T12:10:49</property>
+    <property name="modified">2018-12-14T07:28:00</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -47,7 +47,7 @@
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="FILESTATUS_addedOutside" value="c3e88d" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
-    <option name="GUTTER_BACKGROUND" value="212121" />
+    <option name="GUTTER_BACKGROUND" value="171717" />
     <option name="INDENT_GUIDE" value="424242" />
     <option name="INFORMATION_HINT" value="212121" />
     <option name="LINE_NUMBERS_COLOR" value="424242" />
