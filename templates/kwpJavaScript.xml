@@ -199,11 +199,4 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="forof" value="for (const $myVar$ of $myContainer$) {$END$&#10;}" description="for-of loop for iterating over iterables" toReformat="false" toShortenFQNames="true">
-    <variable name="myVar" expression="" defaultValue="&quot;myVar&quot;" alwaysStopAt="true" />
-    <variable name="myContainer" expression="" defaultValue="&quot;myContainer&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
 </templateSet>
