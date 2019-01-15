@@ -4,7 +4,6 @@
   <option name="EDITOR_FONT_SIZE" value="11" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
-  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <colors>
     <option name="INDENT_GUIDE" value="f2f2f2" />
   </colors>
@@ -12119,6 +12118,9 @@
         <option name="BACKGROUND" value="dff6e5" />
         <option name="FONT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="TEXT">
+      <value />
     </option>
   </attributes>
 </scheme>

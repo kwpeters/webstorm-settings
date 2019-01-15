@@ -1,4 +1,5 @@
 <scheme name="kwp - light" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="10" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
@@ -81,6 +82,9 @@
     </option>
     <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
+    <option name="TEXT">
+      <value />
+    </option>
     <option name="XML_PROLOGUE" baseAttributes="TEXT" />
   </attributes>
 </scheme>
