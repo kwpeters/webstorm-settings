@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="dockerfile" type="Dockerfile" />
-      <mapping pattern="Jenkinsfile_build_all_and_UTs_smoketest" type="Less" />
       <mapping pattern="MANIFEST-000475" type="PLAIN_TEXT" />
       <mapping pattern="Gemfile" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
