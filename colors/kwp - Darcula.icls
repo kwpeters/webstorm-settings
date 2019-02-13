@@ -3,9 +3,12 @@
     <property name="created">2019-02-13T08:01:00</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.3.4.0.0</property>
-    <property name="modified">2019-02-13T08:22:59</property>
+    <property name="modified">2019-02-13T09:24:31</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
+  <colors>
+    <option name="CARET_ROW_COLOR" value="242424" />
+  </colors>
   <attributes>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
