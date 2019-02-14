@@ -76,7 +76,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sep" value="////////////////////////////////////////////////////////////////////////////////" description="Separator comment" toReformat="false" toShortenFQNames="true">
+  <template name="sep/" value="////////////////////////////////////////////////////////////////////////////////" description="Separator comment (////)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -212,6 +212,11 @@
     </context>
   </template>
   <template name="jsdparam" value=" * @param $END$param - description" description="JSDoc parameter" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sep-" value="//------------------------------------------------------------------------------" description="Separator comment (//---)" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
