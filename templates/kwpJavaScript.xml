@@ -226,4 +226,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="funcWrap" value="$funcName$($SELECTION$)" description="Surrounds selection with a function call" toReformat="false" toShortenFQNames="true">
+    <variable name="funcName" expression="" defaultValue="&quot;func&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
