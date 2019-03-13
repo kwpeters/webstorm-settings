@@ -36,10 +36,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="ita" value="$x$it(&quot;$description$&quot;, $async$($done$) =&gt; {$END$&#10;});" description="Jasmine it() (arrow)" toReformat="false" toShortenFQNames="true">
+  <template name="ita" value="$x$it(&quot;$description$&quot;, ($done$) =&gt; {$END$&#10;});" description="Jasmine it() (arrow)" toReformat="false" toShortenFQNames="true">
     <variable name="x" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <variable name="description" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
-    <variable name="async" expression="" defaultValue="&quot;async &quot;" alwaysStopAt="true" />
     <variable name="done" expression="" defaultValue="&quot;done&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />

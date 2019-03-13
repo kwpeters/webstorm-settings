@@ -76,7 +76,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="sep/" value="////////////////////////////////////////////////////////////////////////////////" description="Separator comment (////)" toReformat="true" toShortenFQNames="true">
+  <template name="sep" value="////////////////////////////////////////////////////////////////////////////////" description="Separator comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -204,32 +204,6 @@
     <variable name="myContainer" expression="" defaultValue="&quot;myContainer&quot;" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="jsdclass" value="/**&#10; * @class&#10; * @classdesc $END$classDesc&#10; */" description="JSDoc for a class" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="jsdparam" value=" * @param $END$param - description" description="JSDoc parameter" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="sep-" value="//------------------------------------------------------------------------------" description="Separator comment (//---)" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="sep" value="////////////////////////////////////////////////////////////////////////////////" description="Separator comment (////)" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="funcWrap" value="$funcName$($SELECTION$)" description="Surrounds selection with a function call" toReformat="false" toShortenFQNames="true">
-    <variable name="funcName" expression="" defaultValue="&quot;func&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
 </templateSet>
