@@ -1,6 +1,6 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="array@userDefined" key=".array" provider="builtin.ts" topmost="true">
+    <template id="array@userDefined" key=".parr" provider="builtin.ts" topmost="true">
       <conditions />
       <template name="fakeKey" value="Array&lt;$EXPR$&gt;" toReformat="true" toShortenFQNames="true" />
     </template>
