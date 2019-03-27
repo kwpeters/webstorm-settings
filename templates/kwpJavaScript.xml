@@ -114,8 +114,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="then" value="&#10;.then(($val$) =&gt; {$END$})" description="then" toReformat="false" toShortenFQNames="true">
-    <variable name="val" expression="" defaultValue="&quot;val&quot;" alwaysStopAt="true" />
+  <template name="then" value="&#10;.then($END$)" description="then" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
