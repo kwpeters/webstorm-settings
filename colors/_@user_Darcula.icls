@@ -3,7 +3,7 @@
     <property name="created">2018-03-24T12:19:19</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2017.3.5.0.0</property>
-    <property name="modified">2018-04-16T07:11:19</property>
+    <property name="modified">2019-04-12T20:30:23</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <attributes>
@@ -12,6 +12,11 @@
         <option name="FOREGROUND" value="629755" />
         <option name="BACKGROUND" value="2e2e2e" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="61805b" />
       </value>
     </option>
   </attributes>
